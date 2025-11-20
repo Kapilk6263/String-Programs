@@ -19,7 +19,6 @@ public class FrequencyOfCharacter {
 
         // } 
 
-
         String str="hello world";
 
         HashMap <Character,Integer> h=new HashMap<>();
@@ -31,11 +30,8 @@ public class FrequencyOfCharacter {
             }else{
                 h.put(c, 1);
             }
-        }
+        } 
         System.out.println(h);
-
-
-        
 
     }
 }
